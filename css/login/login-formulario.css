@@ -1,0 +1,36 @@
+.login__formulario {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.login__formulario--campo {
+    background: var(--light-background);
+    border: none;
+    border-radius: 1px;
+    height: 2.5rem;
+    outline: none;
+    padding-left: 1.25rem;
+    width: calc(18.125rem - 2.5rem);
+}
+
+.login__formulario--botao {
+    background: var(--primary-color);
+    border: none;
+    border-radius: 3.125rem;
+    color: var(--light-text);
+    height: 2.5rem;
+    transition: .1s;
+    width: 11.25rem;
+}
+
+.login__formulario--botao:hover {
+    opacity: 0.8;
+    transition: .1s;
+}
+
+.login__formulario--botao:active {
+    transition: .3s;
+    transform: scale(1.1);
+}

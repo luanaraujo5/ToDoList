@@ -1,0 +1,23 @@
+:root {
+    --dark-text: #000000;
+    --hover-light-background: #DADADA;
+    --light-background: #F3F3F3;
+    --light-text: #FFFFFF;
+    --primary-color: #EA40A4;
+}
+
+body {
+    font-family: 'Red Hat Display', sans-serif;;
+}
+
+.link {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: .1s;
+}
+
+.link:hover{
+    color: var(--primary-color);
+    text-decoration: underline;
+    transition: .1s;
+}
