@@ -1,0 +1,21 @@
+.recovery {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.recovery h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    max-width: 18.125rem;
+}
+
+.recovery span {
+    font-size: .75rem;
+    font-weight: 400;
+    max-width: 18.125rem;
+}

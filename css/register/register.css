@@ -1,0 +1,13 @@
+.register {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    height: 100vh;
+}
+
+.register h1 {
+    font-size: 3rem;
+    font-weight: 300;
+}

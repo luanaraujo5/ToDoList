@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/recovery/recovery.css">
+    <link rel="stylesheet" href="../css/recovery/recovery-formulario.css">
+
+    <title>Recuperação</title>
+</head>
+
+<body>
+    <main>
+        <section class="recovery">
+            <h1>Recuperar senha</h1>
+            <span>Um e-mail será enviado com o procedimento para recuperação da senha</span>
+            <form class="recovery__formulario" action="./login.html">
+                <input class="recovery__formulario--email sm-form" type="email" placeholder="Email" required>
+                <button class="recovery__formulario--botao sm-button">Recuperar</button>
+            </form>
+        </section>
+    </main>
+    <script src="../js/firebase.js" type="module"></script>
+    <script src="../js/recovery.js" type="module"></script>
+</body>
+
+</html>

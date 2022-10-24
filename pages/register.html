@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/register/register.css">
+    <link rel="stylesheet" href="../css/register/register-formulario.css">
+    <link rel="stylesheet" href="../css/register/register-link.css">
+
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <main>
+        <section class="register">
+            <h1>Cadastro</h1>
+            <form class="register__formulario" action="">
+                <input class="register__formulario--email sm-form" type="email" placeholder="Email" required>
+                <input class="register__formulario--senha sm-form" type="password" placeholder="Senha" required>
+                <input class="register__formulario--senha-conf sm-form" type="password" placeholder="Confirmar senha"
+                    required>
+                <button class="register__formulario--botao sm-button">Registrar-se</button>
+            </form>
+            <p class="register__link">Já possui uma conta? <a class="link" href="../pages/recovery.html">Entrar</a></p>
+        </section>
+    </main>
+    <script src="../js/firebase.js" type="module"></script>
+    <script src="../js/register.js" type="module"></script>
+</body>
+
+</html>

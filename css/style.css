@@ -21,3 +21,33 @@ body {
     text-decoration: underline;
     transition: .1s;
 }
+
+.sm-button {
+    background: var(--primary-color);
+    border: none;
+    border-radius: 3.125rem;
+    color: var(--light-text);
+    height: 2.5rem;
+    transition: .1s;
+    width: 11.25rem;
+}
+
+.sm-button:hover {
+    opacity: 0.8;
+    transition: .1s;
+}
+
+.sm-button:active {
+    transition: .3s;
+    transform: scale(1.1);
+}
+
+.sm-form {
+    background: var(--light-background);
+    border: none;
+    border-radius: 1px;
+    height: 2.5rem;
+    outline: none;
+    padding-left: 1.25rem;
+    width: calc(18.125rem - 2.5rem);
+}

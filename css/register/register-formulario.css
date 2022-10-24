@@ -1,6 +1,7 @@
-.login__formulario {
+.register__formulario {
     align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: .75rem;
 }
