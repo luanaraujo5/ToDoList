@@ -16,7 +16,7 @@ googleLogin.onclick = function () {
       const user = result.user;
 
       if (user.emailVerified) {
-        location.replace(`${baseURL}/ToDoList/index.html`);
+        location.replace(`${baseURL}/index.html`);
       } else {
         console.log('Erro inesperado')
       }
